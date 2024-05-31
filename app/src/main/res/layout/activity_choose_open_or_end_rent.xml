@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseOpenOrEndRentActivity"
+    android:background="@color/grey_white">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="440dp"
+        android:layout_height="400dp"
+        android:background="@color/dark_Blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivVoltar"
+            android:layout_width="107dp"
+            android:layout_height="75dp"
+            android:src="@drawable/seta_voltar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLockIt"
+        android:layout_width="286dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="LockIt"
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/design_sem_nome_2_removebg_preview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+
+        />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="315dp"
+        android:layout_height="200dp"
+        android:background="@drawable/container_components"
+        android:backgroundTint="@color/grey_white"
+        android:layout_marginTop="180dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <Button
+        android:id="@+id/abrirArmarioMomentaneamente"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/abrir_arm_rio_momentaneamente"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/light_Blue"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <Button
+        android:id="@+id/encerrarLocacao"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/encerrar_loca_o"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/light_Blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abrirArmarioMomentaneamente" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="351dp"
+        android:layout_height="466dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/lockit_half_logo" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ClientMainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/dark_Blue"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/design_sem_nome_2_removebg_preview" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/lockit"
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:textSize="64sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="@string/bem_vindo_ao_lockit"
+        android:textColor="@color/grey_white"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/btnCards"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_Blue"
+            android:scaleType="fitCenter"
+            android:src="@drawable/money_img"
+            app:tint="@color/dark_Blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="@string/cart_es"
+            android:fontFamily="@font/montserrat_medium"
+            android:textAlignment="center"
+            android:textColor="@color/grey_white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btnMapa"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_Blue"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lockerpin_img"
+            app:tint="@color/dark_Blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="@string/nossos_arm_rios"
+            android:textAlignment="center"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/grey_white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="24sp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/light_Blue"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnArmarioAlugado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_Blue"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/ver_arm_rio_alugado"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="317dp"
+        android:layout_height="298dp"
+        android:rotation="180"
+        android:scaleType="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/double_blue_circle" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="266dp"
+        android:layout_height="372dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/double_blue_circle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

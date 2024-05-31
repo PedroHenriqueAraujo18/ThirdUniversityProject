@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_white"
+    tools:context=".DisplayClientPhotoActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/dark_Blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/design_sem_nome_2_removebg_preview" />
+
+    <View
+        android:id="@+id/viewLightBlue"
+        android:layout_width="367dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/container_components"
+        app:layout_constraintBottom_toTopOf="@+id/ivProsseguir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSelecione"
+        android:layout_width="286dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="monospace"
+        android:text="@string/verifique_se_o_s_cliente_s_condiz_com_a_foto"
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/viewLightBlue"
+        app:layout_constraintStart_toStartOf="@+id/viewLightBlue"
+        app:layout_constraintTop_toTopOf="@+id/viewLightBlue" />
+
+    <ImageView
+        android:id="@+id/ivFotoCliente"
+        android:layout_width="240dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintEnd_toEndOf="@+id/viewLightBlue"
+        app:layout_constraintLeft_toLeftOf="@id/viewLightBlue"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelecione"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ivVoltar"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/seta_voltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ivProsseguir"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/light_Blue"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="@string/prosseguir_e_encerrar_a_loca_o"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.726" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483839520577",
+    "project_id": "pi3--es-2024-t20",
+    "storage_bucket": "pi3--es-2024-t20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483839520577:android:7853cc03cf754fb40ebbc0",
+        "android_client_info": {
+          "package_name": "com.example.lockit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3-kRoyTg7_vRx3CGVKpgkX_0Y_D-bkrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

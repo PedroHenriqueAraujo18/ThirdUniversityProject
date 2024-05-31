@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">LockIt</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="GOOGLE_MAPS_API_KEY">AIzaSyA4MpzaUdAFiyyhUDObL_xsGVaoqiCtUbk</string>
+    <string name="title_activity_logged_in">LoggedInActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abrir_arm_rio_momentaneamente">Abrir armário momentaneamente</string>
+    <string name="encerrar_loca_o">Encerrar locação</string>
+    <string name="lockit">LockIt</string>
+    <string name="selecione_o_per_odo_de_tempo_que_deseja_alugar">Selecione o período de tempo que deseja alugar:</string>
+    <string name="mostre_o_qr_code_para_o_gerente_para_confirmar_a_loca_o">Mostre o QR Code para o gerente para confirmar a locação:</string>
+    <string name="tirar_foto">Tirar Foto</string>
+    <string name="salvar_foto">Salvar Foto</string>
+    <string name="tirar_novamente">Tirar Novamente</string>
+    <string name="tire_uma_foto_do_cliente_para_confirma_o_de_identidade">Tire uma foto do cliente para confirmação de identidade</string>
+    <string name="verifique_se_o_s_cliente_s_condiz_com_a_foto">Verifique se o(s) cliente(s) condiz com a foto:</string>
+    <string name="prosseguir_e_encerrar_a_loca_o">Prosseguir e encerrar a locação</string>
+    <string name="realize_o_estorno_do_valor_correspondente_com_o_tempo_de_uso_do_cliente">Realize o estorno do valor correspondente com o tempo de uso do cliente</string>
+    <string name="realizar_estorno">Realizar estorno</string>
+    <string name="abrir_armario_momentaneamente">Abrir armario momentaneamente</string>
+    <string name="enviar">Enviar</string>
+    <string name="e_mail_de_cadastro">E-mail de cadastro</string>
+    <string name="enviaremos_um_link_de_recupera_o_da_senha_para_seu_email">Enviaremos um link de recuperação da senha para seu email:</string>
+    <string name="recuperac_o_de_senha">Recuperacão de senha</string>
+    <string name="cancelar_aluguel">Cancelar aluguel</string>
+    <string name="bem_vindo_ao_lockit">Bem vindo ao LockIt! Para alugar um armário, clique em nossos armários (você deve cadastrar um cartão antes)!</string>
+    <string name="ver_arm_rio_alugado">Ver armário alugado</string>
+    <string name="nossos_arm_rios">Nossos armários</string>
+    <string name="cart_es">Cartões</string>
+    <string name="informe_os_dados_do_cart_o">Informe os dados do cartão:</string>
+    <string name="bem_vindo_p_gina_de_gerenciamento">Bem vindo à página de gerenciamento!</string>
+    <string name="aproxime_a_pulseira_nfc_para_buscar_as_informa_es_do_arm_rio">Aproxime a pulseira NFC para buscar as informações do armário</string>
+</resources>

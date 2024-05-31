@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ClientMainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@color/dark_Blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/design_sem_nome_2_removebg_preview" />
+
+    <TextView
+        android:id="@+id/tvLockIt"
+        android:layout_width="286dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="LockIt"
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/viewLightBlue"
+        android:layout_width="367dp"
+        android:layout_height="300dp"
+        android:background="@drawable/container_components"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/tvSelecione"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:text="Selecione o quantas pessoas vão acessar o armário:"
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/viewLightBlue" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rgOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@id/viewLightBlue"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="@id/viewLightBlue"
+        app:layout_constraintEnd_toEndOf="@id/viewLightBlue"
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/rb1pessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uma pessoa"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rb2pessoas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duas pessoas"
+            android:textSize="22sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_Blue"
+        android:text="Continuar"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65" />
+
+
+    <ImageView
+        android:id="@+id/ivVoltar"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:src="@drawable/seta_voltar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

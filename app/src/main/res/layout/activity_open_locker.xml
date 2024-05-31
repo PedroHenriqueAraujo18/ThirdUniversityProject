@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseOpenOrEndRentActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="@color/dark_Blue"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:srcCompat="@drawable/design_sem_nome_2_removebg_preview" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número do armário:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="55dp"
+        android:textColor="@color/grey_white"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="315dp"
+        android:layout_height="200dp"
+        android:background="@drawable/et_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <FrameLayout
+        android:id="@+id/btnAbrirArmario"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@id/view3"
+        app:layout_constraintTop_toTopOf="@id/view3">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_Blue"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lock_open_svgrepo_com"
+            app:tint="@color/dark_Blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Abrir armário"
+            android:textAlignment="center"
+            android:textColor="@color/grey_white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/btnFecharArmario"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@id/view3"
+        app:layout_constraintTop_toTopOf="@id/view3">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_Blue"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lock_svgrepo_com"
+            app:tint="@color/dark_Blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Fechar armário"
+            android:textAlignment="center"
+            android:textColor="@color/grey_white"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/ivVoltar"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/seta_voltar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status do armário: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view3"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/grey_white"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginLeft="105dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/grey_white"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="30sp"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:background="@drawable/et_bg"
+        android:backgroundTint="@color/light_Blue"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="85dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="INSTRUÇÕES:               Clique em 'Abrir armário' para abrir a porta do armário. Peça para o cliente retirar/colocar seus pertences e feche a porta. Depois, clique em fechar armário. "
+        android:textColor="@color/grey_white"
+        android:lineSpacingExtra="1.5sp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
