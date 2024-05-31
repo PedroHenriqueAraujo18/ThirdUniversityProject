@@ -15,9 +15,8 @@ Se instalar pelo app-debug.apk ele vai pedir pra verificar o APP, deixe que veri
 
 
 CONTA DE GERENTE----->
-jvbbrocha@gmail.com
+
 SENHA DE ACESSO------>
-12345678
 
 >>>>>>> 2babf5fb38e204e9dfbfab70b8ca36a54b254224
 
@@ -25,9 +24,9 @@ Se instalar pelo app-debug.apk ele vai pedir pra verificar o APP, deixe que veri
 
 
 CONTA DE GERENTE----->
-jvbbrocha@gmail.com
+
 SENHA DE ACESSO------>
-12345678
+
 
 
 
