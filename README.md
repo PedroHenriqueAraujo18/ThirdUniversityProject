@@ -2,7 +2,7 @@
 
 
 AVISO SOBRE O APLICATIVO
-<<<<<<< HEAD
+
 
 Primeiro entre na pasta APP, e instale o APPDEBUG.dpk, é requisito que você possua um android 12 para cima para testar. É requisito que seu aparelho tenha o NFC, se não o aplicativo não ira funcionar corretamente.
 é requisito que você possua um segundo celular para os testes.
@@ -14,18 +14,8 @@ Primeiro entre na pasta APP, e instale o APPDEBUG.dpk, é requisito que você po
 Se instalar pelo app-debug.apk ele vai pedir pra verificar o APP, deixe que verifique leva uns instantes.
 
 
-CONTA DE GERENTE----->
-
-SENHA DE ACESSO------>
-
->>>>>>> 2babf5fb38e204e9dfbfab70b8ca36a54b254224
 
 Se instalar pelo app-debug.apk ele vai pedir pra verificar o APP, deixe que verifique leva uns instantes.
-
-
-CONTA DE GERENTE----->
-
-SENHA DE ACESSO------>
 
 
 
